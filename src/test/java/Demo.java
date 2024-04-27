@@ -8,7 +8,7 @@ public class Demo {
     WebDriver driver=new ChromeDriver();
     @BeforeMethod
     public void setUp(){
-        driver.get("https://web-playground.ultralesson.com");
+        driver.get("https://www.google.com");
     }
 
     @Test
